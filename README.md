@@ -8,7 +8,7 @@ This package contains a comprehensive proof-of-concept suite for **CVE-2023-5841
 > This vulnerability is extremely dangerous and can be used as a **0-day exploit** for any vulnerable device (iOS < 18.0). The provided exploits demonstrate how this bug can be weaponized for specific purposes, from Denial of Service to Arbitrary Code Execution.
 
 ```https://support.apple.com/en-us/121250```
-## 📂 Directory Structure
+##  Directory Structure
 
 | Folder | Purpose | Description |
 | :--- | :--- | :--- |
@@ -21,7 +21,7 @@ This package contains a comprehensive proof-of-concept suite for **CVE-2023-5841
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 Each primitive is self-contained. Navigate to the folder and run the script:
 
@@ -48,7 +48,7 @@ cd flag
 
 ---
 
-## 📜 Technical Analysis
+##  Technical Analysis
 
 ### Vulnerability Overview
 **CVE-2023-5841** is a heap-based buffer overflow in the `generic_unpack_deep` function of `libOpenEXRCore`. It specifically affects the processing of **Deep Scanline** images.
